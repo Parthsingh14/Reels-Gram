@@ -32,5 +32,5 @@ userSchema.pre('save', async function(next){
     next();
 })
 
-const User = models?.ReelUser || model<IUser>('User', userSchema);
+const User = models?.ReelUser || model<IUser>('ReelUser', userSchema);
 export default User;
